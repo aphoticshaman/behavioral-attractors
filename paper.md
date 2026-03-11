@@ -301,7 +301,7 @@ All experimental parameters are specified in:
 
 ### 7.6 Repository
 
-Full code, configs, and raw data available at: [repository path to be specified]
+Full code, configs, and raw data available at: https://github.com/aphoticshaman/behavioral-attractors
 
 ---
 
