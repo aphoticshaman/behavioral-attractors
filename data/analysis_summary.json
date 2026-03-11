@@ -1,0 +1,34 @@
+{
+  "n_trials": 240,
+  "adherence": {
+    "C0": {
+      "mean": 1.0,
+      "std": 0.0
+    },
+    "C1": {
+      "mean": 0.793,
+      "std": 0.173
+    },
+    "C2": {
+      "mean": 0.616,
+      "std": 0.201
+    },
+    "C3": {
+      "mean": 0.688,
+      "std": 0.135
+    },
+    "C4": {
+      "mean": 0.403,
+      "std": 0.118
+    },
+    "C5": {
+      "mean": 0.857,
+      "std": 0.092
+    }
+  },
+  "findings": {
+    "telemetry_effect": -0.384,
+    "override_adherence": 0.403,
+    "sham_difference": 0.178
+  }
+}

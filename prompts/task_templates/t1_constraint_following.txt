@@ -1,0 +1,18 @@
+# T1: Constraint-Following Task Template
+# Variables: {constraints}, {task_description}
+
+You must complete the following task while satisfying ALL constraints listed below.
+
+## Task
+{task_description}
+
+## Constraints (ALL MUST BE SATISFIED)
+{constraints}
+
+## Instructions
+1. Read and understand all constraints before responding
+2. Complete the task while strictly following every constraint
+3. If any constraint conflicts with another, prioritize the first listed constraint
+4. Your response will be scored on: (a) task completion, (b) constraint satisfaction
+
+Respond now.

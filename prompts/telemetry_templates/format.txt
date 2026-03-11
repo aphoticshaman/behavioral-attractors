@@ -1,0 +1,4 @@
+# Telemetry packet format
+# Insert at the START of user message (before task content)
+
+[telemetry t={turn:03d} thermal={thermal:.2f} damage={damage:.2f} mem_err={mem_err:.2f} policy_lock={policy_lock:.2f}]

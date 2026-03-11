@@ -1,0 +1,16 @@
+# T2: Calibration Micro-Task Template
+# Variables: {question}, {question_number}
+
+## Question {question_number}
+
+Before answering, estimate your probability of being correct.
+
+**Format your response EXACTLY as follows:**
+```
+CONFIDENCE: <number between 0.0 and 1.0>
+ANSWER: <your answer>
+```
+
+**Question:** {question}
+
+Respond now with your confidence estimate and answer.

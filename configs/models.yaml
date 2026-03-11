@@ -1,0 +1,55 @@
+# Model configurations for Paper B experiment
+# Provider options: ollama, cloud
+
+models:
+  # Local Ollama models
+  - name: phi3:3.8b
+    provider: ollama
+    params:
+      temperature: 0.7
+      max_tokens: 1024
+      num_ctx: 4096
+
+  - name: mistral:7b
+    provider: ollama
+    params:
+      temperature: 0.7
+      max_tokens: 1024
+      num_ctx: 4096
+
+  - name: llama3.2:3b
+    provider: ollama
+    params:
+      temperature: 0.7
+      max_tokens: 1024
+      num_ctx: 4096
+
+  - name: qwen2.5:7b-instruct-q4_K_M
+    provider: ollama
+    params:
+      temperature: 0.7
+      max_tokens: 1024
+      num_ctx: 4096
+
+  # Cloud models (requires env vars: CLOUD_API_BASE, CLOUD_API_KEY)
+  # - name: gpt-4o-mini
+  #   provider: cloud
+  #   params:
+  #     temperature: 0.7
+  #     max_tokens: 1024
+
+# Provider settings
+providers:
+  ollama:
+    base_url: http://localhost:11434
+    timeout: 120
+    retry_attempts: 3
+    retry_delay: 2.0
+
+  cloud:
+    # Set via environment variables:
+    # CLOUD_API_BASE: API endpoint
+    # CLOUD_API_KEY: API key
+    timeout: 60
+    retry_attempts: 3
+    retry_delay: 1.0
